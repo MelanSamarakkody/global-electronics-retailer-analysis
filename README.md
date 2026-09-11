@@ -24,8 +24,8 @@ For the complete write-up — including business recommendations and the full da
 ## Repo Structure
 
 ```
-├── images/       → dashboard screenshots
-├── sql/          → validated SQL queries for all KPIs
-├── power-bi/     → the Power BI (.pbix) file
-└── docs/         → full case study write-up
+├── sql/        → validated SQL queries for all KPIs
+├── docs/       → full case study write-up  
+├── images/     → dashboard screenshots
+└── power-bi/   → the Power BI (.pbix) file    
 ```

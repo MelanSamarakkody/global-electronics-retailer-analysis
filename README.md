@@ -11,3 +11,11 @@ This project analyzes five years (2016–2021) of transaction data from a global
 - **Consistent, reliable seasonality** — revenue spikes every December without exception across all five years.
 - **A sharp, attributable disruption** — revenue collapsed ~90% between Feb–Apr 2020, coinciding precisely with COVID-19 lockdowns, with only partial recovery by early 2021.
 - **Revenue skews toward older customers** — customers aged 46+ account for roughly 60-70% of total revenue.
+## Tools & Skills
+- **Excel** — data auditing, cleaning, formula-driven transformation
+- **MySQL** — relational schema design, composite keys, multi-table joins, aggregation
+- **Power BI** — data modeling, DAX measures, interactive dashboards
+- **Analysis** — KPI definition, currency conversion logic, time-series trend analysis
+## The Process
+The source data required real cleaning before it could be trusted — inconsistent character encodings across files, currency values stored as formatted text, non-standard date formats, and a multi-currency revenue calculation that had to be validated carefully (an early mix-up between multiplying and dividing by the exchange rate produced a plausible-looking but completely wrong result — a good reminder that a query running without an error isn't the same as a query being correct).<br>
+Every SQL result was independently cross-checked against its Power BI equivalent before being treated as reliable.

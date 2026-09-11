@@ -21,3 +21,11 @@ The source data required real cleaning before it could be trusted — inconsiste
 Every SQL result was independently cross-checked against its Power BI equivalent before being treated as reliable.
 ## Full Case Study
 For the complete write-up — including business recommendations and the full data quality methodology — see [`docs/global-electronics-retailer-analysis-case-study.docx`](docs/global-electronics-retailer-analysis-case-study.docx).
+## Repo Structure
+
+```
+├── images/       → dashboard screenshots
+├── sql/          → validated SQL queries for all KPIs
+├── power-bi/     → the Power BI (.pbix) file
+└── docs/         → full case study write-up
+```

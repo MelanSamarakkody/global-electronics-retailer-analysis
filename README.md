@@ -20,7 +20,7 @@ This project analyzes five years (2016–2021) of transaction data from a global
 The source data required real cleaning before it could be trusted — inconsistent character encodings across files, currency values stored as formatted text, non-standard date formats, and a multi-currency revenue calculation that had to be validated carefully (an early mix-up between multiplying and dividing by the exchange rate produced a plausible-looking but completely wrong result — a good reminder that a query running without an error isn't the same as a query being correct).<br>
 Every SQL result was independently cross-checked against its Power BI equivalent before being treated as reliable.
 ## Full Case Study
-For the complete write-up — including business recommendations and the full data quality methodology — see [`docs/global-electronics-retailer-analysis-case-study.docx`](docs/global-electronics-retailer-analysis-case-study.docx).
+For the complete write-up — including business recommendations and the full data quality methodology — see [`docs/global-electronics-retailer-analysis-case-study.pdf`](docs/global-electronics-retailer-analysis-case-study.pdf).
 ## Repo Structure
 
 ```
